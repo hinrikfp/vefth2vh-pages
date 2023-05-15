@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866667 33.866666"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="hindber-full.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.6978966"
+     inkscape:cx="85.57021"
+     inkscape:cy="67.902729"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="29.755053"
+       y="23.46116"
+       width="60.841733"
+       height="74.642176"
+       id="rect4186" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.03823;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2270"
+       cx="18.30175"
+       cy="16.795601"
+       rx="5.3217754"
+       ry="5.7712069" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2274"
+       cx="18.002123"
+       cy="29.062164"
+       rx="4.6560163"
+       ry="4.1311026" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2276"
+       cx="27.747849"
+       cy="22.977596"
+       rx="3.3391819"
+       ry="3.6158636" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:0.989053;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2276-6"
+       cx="9.7203712"
+       cy="23.150717"
+       rx="3.177352"
+       ry="3.2342315" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path3010"
+       cx="29.120546"
+       cy="11.332362"
+       rx="4.127768"
+       ry="4.7780476" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.01844;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path3010-3"
+       cx="7.868145"
+       cy="13.597096"
+       rx="3.9903781"
+       ry="4.4603477" />
+    <path
+       style="fill:#467a36;fill-opacity:1;stroke:#000000;stroke-width:0.484879px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 18.056027,9.1347018 c -0.188941,-9.44478388 6.121869,-8.6968369 6.121869,-8.6968369 0,0 4.803605,-0.69490467 1.198777,4.7357223 -3.604828,5.4306278 -7.320646,3.9611146 -7.320646,3.9611146 z"
+       id="path3192" />
+    <g
+       aria-label="H"
+       transform="matrix(0.61885506,0,0,0.6998896,-20.521203,-17.220539)"
+       id="text4184"
+       style="font-size:40px;line-height:1.25;white-space:pre;shape-inside:url(#rect4186);fill:#784421;stroke:#000000" />
+    <path
+       style="fill:#467a36;fill-opacity:1;stroke:#000000;stroke-width:0.411029px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 18.562166,9.071433 c 0.159445,-8.0424155 -5.166161,-7.4055242 -5.166161,-7.4055242 0,0 -4.0536954,-0.5917248 -1.011632,4.0325587 3.042065,4.6242845 6.177793,3.3729655 6.177793,3.3729655 z"
+       id="path3192-5" />
+  </g>
+</svg>

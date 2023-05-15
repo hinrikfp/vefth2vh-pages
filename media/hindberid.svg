@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866667 33.866666"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="hindberid.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.6978966"
+     inkscape:cx="8.0887264"
+     inkscape:cy="67.90273"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="3840"
+     inkscape:window-y="375"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="29.755053"
+       y="23.46116"
+       width="60.841733"
+       height="74.642176"
+       id="rect4186" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2270"
+       sodipodi:type="arc"
+       sodipodi:cx="17.915434"
+       sodipodi:cy="16.795601"
+       sodipodi:rx="5.6911659"
+       sodipodi:ry="5.7542806"
+       sodipodi:start="4.717859"
+       sodipodi:end="1.5685323"
+       sodipodi:arc-type="slice"
+       d="m 17.946565,11.041406 a 5.6911659,5.7542806 0 0 1 5.660027,5.763419 5.6911659,5.7542806 0 0 1 -5.678273,5.745042 l -0.01288,-5.754266 z" />
+    <path
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2274"
+       sodipodi:type="arc"
+       sodipodi:cx="18.002123"
+       sodipodi:cy="29.062164"
+       sodipodi:rx="4.6560163"
+       sodipodi:ry="4.1311026"
+       sodipodi:start="4.7136871"
+       sodipodi:end="1.5803824"
+       sodipodi:arc-type="slice"
+       d="m 18.008167,24.931065 a 4.6560163,4.1311026 0 0 1 4.035605,2.080093 4.6560163,4.1311026 0 0 1 -0.0254,4.140921 4.6560163,4.1311026 0 0 1 -4.060882,2.040998 l 0.04463,-4.130913 z" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path2276"
+       cx="27.747849"
+       cy="22.977596"
+       rx="3.3391819"
+       ry="3.6158636" />
+    <ellipse
+       style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.07208;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path3010"
+       cx="29.120546"
+       cy="11.332362"
+       rx="4.127768"
+       ry="4.7780476" />
+    <path
+       style="fill:#467a36;fill-opacity:1;stroke:#000000;stroke-width:0.484879px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 18.056027,9.1347018 c -0.188941,-9.44478388 6.121869,-8.6968369 6.121869,-8.6968369 0,0 4.803605,-0.69490467 1.198777,4.7357223 -3.604828,5.4306278 -7.320646,3.9611146 -7.320646,3.9611146 z"
+       id="path3192" />
+    <g
+       aria-label="H"
+       transform="matrix(0.61885506,0,0,0.6998896,-20.521203,-17.220539)"
+       id="text4184"
+       style="font-size:40px;line-height:1.25;white-space:pre;shape-inside:url(#rect4186);fill:#784421;stroke:#000000">
+      <path
+         d="M 54.982511,72.486971 V 53.15365 H 39.835853 V 72.486971 H 34.76919 V 38.086992 l -0.773333,-5.599997 5.839996,-0.533333 v 16.933323 h 15.146658 v -16.39999 l 5.066664,-0.533333 v 40.533309 z"
+         style="font-size:53.3333px;font-family:'B612 Mono';-inkscape-font-specification:'B612 Mono, Normal'"
+         id="path6469" />
+    </g>
+  </g>
+</svg>

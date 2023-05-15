@@ -1,0 +1,63 @@
+/* (A) TABS CONTAINER */
+.tab, .tab * {
+    box-sizing: border-box;
+  }
+  .tab { max-width: 600px; position: absolute; right: 0;}
+  
+  /* (B) HIDE CHECKBOX */
+  .tab input { display: none; }
+  
+  /* (C) TAB LABEL */
+  .tab label {
+    /* (C1) DIMENSIONS */
+    position: relative; /* required for (f2) position:absolute */
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px;
+    height: 8vh;
+   
+    /* (C2) COSMETICS */
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+  }
+  
+  /* (D) TAB CONTENT - HIDDEN BY DEFAULT */
+  /* css animation will not work with auto height */
+  /* this is why we use max-height instead */
+  .tab .content {
+    background: rgb(204, 222, 249);
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+    position: relative;
+    z-index: 10;
+    width: 50vw;
+  }
+  .tab .content p { padding: 10px; }
+  
+  /* (E) OPEN TAB ON CHECKED */
+  .tab input:checked ~ .content { max-height: 100vh; }
+  
+  /* (F) EXTRA - ADD ARROW INDICATOR */
+  .tab label::after {
+    /* (F1) RIGHT ARROW */
+    display: block;  
+    /*content: "\25b6";*/
+   
+    /* (F2) PLACE AT RIGHT SIDE */
+    position: absolute;
+    right: 10px; top: 10px;
+   
+    /* (F3) ANIMATED ARROW */
+    transition: all 0.4s;
+  }
+   
+  /* (F4) ROTATE ARROW ON CHECKED */
+  .tab input:checked ~ label::after { transform: rotate(90deg); }
+  
+  .tab input:checked ~ .hamborger { transform: rotate(90deg); transition: all 0.3s;}
+
+  

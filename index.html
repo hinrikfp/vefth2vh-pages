@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="accordion.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612">
+</head>
+<body>
+  <img class="logoSplash" src="media/hindber-full.svg"/>
+<header>
+    <div class="headerDiv">
+      <nav class="topnav">
+        <ul class="topmenu">
+                <li><a href="index.html">  <img class="logo" src="media/hindberid.svg" alt=""></a></li>
+                <li><a href="index.html">Heim  <span class="icon-home"></span></a></li>
+                <li><a>Karfa  <span class="icon-cart"></span></a></li> 
+                <li><a>Upplýsingar  <span class="icon-info"></span></a></li>
+            </ul>
+      </nav>
+      <a class="logoA" href="index.html">  <img class="logo" src="media/hindberid.svg" alt=""></a>
+      <div class="tab">
+        <input id="tab-1" type="checkbox">
+        <label for="tab-1"></label>
+        <img class="hamborger" src="media/hamborger.svg" alt="">
+        <div class="content"><p><a href="index.html">Heim  <span class="icon-home icon"></span></a><br/><br/><a>Karfa  <span class="icon-cart icon"></span></a><br><br><a>Upplýsingar  <span class="icon-info icon"></span></a><br><br></p></div>
+      </div>
+    </div>
+</header>
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img class="slideImg" src="media/pi-4-transparent.png" style="width:100%">
+      <div class="text">pi-4b</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img class="slideImg" src="media/pi02w-noBg.png" style="width:100%">
+      <div class="text">pi-zero-2w</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img class="slideImg" src="media/pi-4-diagram.png" style="width:100%">
+      <div class="text">pi-4b</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img class="slideImg" src="media/pi-4-topdown.png" style="width:100%">
+      <div class="text">pi-4b</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div> 
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <div class="register">
+        <form action="#" method="GET">
+            <fieldset><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                <legend>Panta</legend>
+                <label>
+                    Nafn
+                    <input type="text" name="nafn" placeholder="Full name" required="" autofocus="" title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
+                </label>
+                <label>
+                    Símanúmer
+                    <input type="text" name="sími" placeholder="123 4567" title="Vinsamlegast skráið aðeins 7 tölustafi" required="" pattern="\d{3}(?:[\-\s]?)\d{4}">
+                </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                <label>
+                  Heimilisfang
+                  <input type="text" name="address" placeholder="Home Address" required="" autofocus="" title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
+              </label>
+                <label>
+                    Tölvupóstur
+                    <div class="fx-relay-email-input-wrapper"><input type="email" name="tölvupóstur" placeholder="Email address" required="" style="padding-right: 30px;"><div class="fx-relay-icon" style="bottom: 13px; right: 2px;"><button class="fx-relay-button" id="fx-relay-button" type="button" title="Generate new mask" style="background-image: url(&quot;moz-extension://fdcc407e-f492-481a-90ca-ea2d029129a0/images/logo-image-fx-relay.svg&quot;); height: 24px; width: 24px; min-width: 24px;"></button></div></div>
+                </label>
+                <label>
+                    Dagsetning
+                    <input type="date" name="dagsetning" required="">
+                </label>
+                <br>
+                <label>
+                    Fjöldi 
+                    <select name="fjöldi">
+                        <option value="0" selected=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    stykki
+                </label>
+                <br><!-- til að árgerð leggist ekki upp að select -->
+                <label for="litur">
+                        Tegund:
+                        <input type="radio" name="litur" value="4b"> Pi 4B,  
+                        <input type="radio" name="litur" value="02w"> Pi Zero 2W. 
+                </label>
+                <br/>
+                <label for="árgerð">
+                        Header:
+                        <input type="radio" name="idk" value="header"> Header, 
+                        <input type="radio" name="idk" value="noheader"> No Header. 
+                </label> 
+                <br><!-- til að Litur leggist ekki upp að Árgerð -->
+                <label>
+                <br>
+                    Athugasemdir <!--https://www.w3schools.com/tags/att_textarea_rows.asp-->
+                    <textarea rows="3" name="Athugasemdir"></textarea>
+                </label>
+                    <input type="submit" name="submit" value="Panta">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <a href="https://raspberrypi.com">raspberry pi vefsíða</a>
+        <br>
+        <a href="https://github.com/hinrikfp" target="_blank">GitHub <span class="icon-github"></span></a>
+    </footer>
+</body>
+</html>
